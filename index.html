@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Awesome books</title>
-</head>
-<body>
-
-  <div class="container">
-    <h1>Awesome books</h1>
-    <div class="book-list">
-      <div class="book">
-        <div class="title"></div>
-        <div class="author"></div>
-        <button>Remove</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Awesome books</h1>
+      <div class="book-list"></div>
+      <div class="form">
+        <input type="text" id="title" placeholder="Title" /><br />
+        <input type="text" id="author" placeholder="Author" /><br />
+        <button onclick="addBook()">Add</button>
       </div>
     </div>
-    <div class="form">
-      <input type="text" id="title" placeholder="Title"><br>
-      <input type="text" id="author" placeholder="Author"><br>
-      <button type="submit">Add</button>
+    <!-- BOOK TEMPLATE (hidden) -->
+    <div class="book">
+      <div class="title"></div>
+      <div class="author"></div>
+      <button>Remove</button>
     </div>
-  </div>
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
