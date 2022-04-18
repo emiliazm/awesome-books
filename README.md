@@ -1,62 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome books.
 
-> Description the project.
+> Hello! I am a software developer! I can help you build a product, feature or website. Tak a look of my works.
+If you like what you see and have a project you need coded, don’t hesitate and contact me.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- JavaScript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Create a collection that keeps a list of books (hint: you can use an array of objects for that).
+- Create a function to add a new book to the collection, with title and author.
+- Create a function to remove a book from the collection.
+- Display all books saved in the collection in the top part of the page.
+- Make sure that when a user clicks the "Add" button.
+Make sure that when a user clicks the "Remove" button.
+- Make sure that data is preserved in the browser's memory by using localStorage.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Roberto A. Baños Alvarez**
+- GitHub: [@rbanos-mv](https://github.com/rbanos-mv)
+- Twitter: [@RobertoBanosMV](https://twitter.com/RobertoBanosMV)
+- LinkedIn: [Roberto A Baños Alvarez](https://linkedin.com/in/roberto-a-baños-alvarez-500766234)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Emilia Zambrano**
 
-👤 **Author2**
+- GitHub: [@emiliazm](https://github.com/emiliazm)
+- Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/emiliazm/awesome-books/issues).
 
 ## Show your support
 
@@ -64,9 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse README template.
+- Figma.
 
 ## 📝 License
 
