@@ -9,7 +9,7 @@ function getNewId() {
 }
 
 function loadBooks() {
-  books = JSON.parse(localStorage.getItem('books'));
+  books = JSON.parse(localStorage.getItem('books') || '[]');
 }
 
 function fillValues(card, book) {
@@ -63,3 +63,5 @@ function remove(id) {
   saveBooks(books);
   showBooks();
 }
+
+showBooks();
