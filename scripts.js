@@ -15,8 +15,9 @@ function addBook() {
 
 function remove(title, author) {
   books = books.filter((book) => book.title !== title || book.author !== author);
-  console.log(books);
+  showBooks()
 }
+
 function fillValues(card, book) {
   card.querySelector('.title').textContent = book.title;
   card.querySelector('.author').textContent = book.author;
