@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webhint": "npx hint .",
-    "stylelint": "npx stylelint **/*.{css,scss}"
+    "stylelint": "npx stylelint **/*.{css,scss}",
+    "eslint": "npx eslint --fix ."
   },
   "repository": {
     "type": "git",
