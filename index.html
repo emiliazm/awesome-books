@@ -12,16 +12,16 @@
       <nav>
         <a href="#"><h1>Awesome Books</h1></a>
         <ul class="menuList">
-          <li><a href="#bookList">List</a></li>
-          <li class="sideBorder"><a href="#bookForm">Add new</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">List</a></li>
+          <li class="sideBorder"><a href="#" onclick="chooseSection">Add new</a></li>
+          <li><a href="#" onclick="chooseSection">Contact</a></li>
         </ul>
       </nav>
       <div class="date">March 19, 2021 9:25:32 am</div>
     </header>
 
     <section id="bookList" class="container">
-      <h1>All awesome books</h1>
+      <h2>All awesome books</h2>
       <ul class="book-list"></ul>
       <div class="separator"></div>
     </section>
@@ -34,6 +34,22 @@
         <button type="button" id="addButton">Add</button>
       </form>
     </section>
+
+    <section id="contact">
+      <h2>Contact information</h2>
+      <p>Do you have any questions or do you just want to say "Hello"? <br/> You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number: 012345678922</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </section>
+
+    <footer id="footer">
+      <h3>Copyright</h3>
+      <div>This is a website for education proposal only.</div>
+    </footer>
+
     <!-- BOOK TEMPLATE (hidden) -->
     <ul class="hidden">
       <li class="book">
