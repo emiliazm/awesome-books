@@ -18,7 +18,8 @@ export default class BookCollection {
   }
 
   static addBook(title, author) {
-    const newBook = new Book(title, author);
+    const id = Store.nextId;
+    const newBook = new Book(id, title, author);
     return BookCollection.add(newBook);
   }
 
