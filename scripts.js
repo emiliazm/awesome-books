@@ -1,4 +1,20 @@
-let books = [];
+import BookCollection from "./classes/book-collection.js";
+import UI from "./classes/ui.js";
+
+document.addEventListener('DOMContentLoaded', UI.displayBooks());
+document.querySelector('#addButton').addEventListener('click', (e)=> {
+  const title = document.querySelector('#title').value.trim();
+  const author = document.querySelector('#author').value.trim();
+
+  if (title === '' || author === '') {
+    e.preventDefault();
+  }else{
+    const book = BookCollection.addBook(title, author);
+    UI.addBook(book);
+  }
+})
+
+/* let books = [];
 
 // STORAGE
 
@@ -64,4 +80,4 @@ function remove(id) {
   showBooks();
 }
 
-showBooks();
+showBooks(); */
