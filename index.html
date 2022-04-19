@@ -12,9 +12,9 @@
       <nav>
         <a href="#"><h1>Awesome Books</h1></a>
         <ul class="menuList">
-          <li><a href="#">List</a></li>
-          <li class="sideBorder"><a href="#" onclick="chooseSection">Add new</a></li>
-          <li><a href="#" onclick="chooseSection">Contact</a></li>
+          <li class="list-li"><a href="#">List</a></li>
+          <li class="sideBorder"><a href="#">Add new</a></li>
+          <li class="contact-li"><a href="#">Contact</a></li>
         </ul>
       </nav>
       <div class="date">March 19, 2021 9:25:32 am</div>
@@ -23,10 +23,9 @@
     <section id="bookList" class="container">
       <h2>All awesome books</h2>
       <ul class="book-list"></ul>
-      <div class="separator"></div>
     </section>
 
-    <section id="bookForm" class="container">
+    <section id="bookForm" class="container hidden">
       <h2>Add a new book</h2>
       <form id="form">
         <input type="text" id="title" placeholder="Title" />
@@ -35,7 +34,7 @@
       </form>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container hidden">
       <h2>Contact information</h2>
       <p>Do you have any questions or do you just want to say "Hello"? <br/> You can reach out to us!</p>
       <ul>
