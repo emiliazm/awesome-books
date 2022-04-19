@@ -8,17 +8,47 @@
     <title>Awesome books</title>
   </head>
   <body>
-    <div class="container">
-      <h1>All awesome books</h1>
+    <header>
+      <nav>
+        <a href="#"><h1>Awesome Books</h1></a>
+        <ul class="menuList">
+          <li class="list-li"><a href="#">List</a></li>
+          <li class="sideBorder"><a href="#">Add new</a></li>
+          <li class="contact-li"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date">March 19, 2021 9:25:32 am</div>
+    </header>
+
+    <section id="bookList" class="container">
+      <h2>All awesome books</h2>
       <ul class="book-list"></ul>
-      <div class="separator"></div>
+    </section>
+
+    <section id="bookForm" class="container hidden">
       <h2>Add a new book</h2>
       <form id="form">
         <input type="text" id="title" placeholder="Title" />
         <input type="text" id="author" placeholder="Author" />
         <button type="button" id="addButton">Add</button>
       </form>
-    </div>
+    </section>
+
+    <section id="contact" class="container hidden">
+      <h2>Contact information</h2>
+      <p>Do you have any questions or do you just want to say "Hello"? <br/> You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number: 012345678922</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </section>
+
+    <footer id="footer">
+      <h3>Copyright</h3>
+      <div>This is a website for education proposal only.</div>
+    </footer>
+
     <!-- BOOK TEMPLATE (hidden) -->
     <ul class="hidden">
       <li class="book">
