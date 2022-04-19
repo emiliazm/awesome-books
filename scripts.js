@@ -17,3 +17,28 @@ document.querySelector('#addButton').addEventListener('click', (e) => {
     authorElement.value = '';
   }
 });
+
+const listLi = document.querySelector('.list-li');
+const sideBorder = document.querySelector('.sideBorder');
+const contactLi = document.querySelector('.contact-li');
+const bookList = document.querySelector('#bookList');
+const bookForm = document.querySelector('#bookForm');
+const contact = document.querySelector('#contact');
+
+listLi.addEventListener('click', () => {
+  bookList.classList.remove('hidden');
+  bookForm.classList.add('hidden');
+  contact.classList.add('hidden');
+});
+
+sideBorder.addEventListener('click', () => {
+  bookList.classList.add('hidden');
+  bookForm.classList.remove('hidden');
+  contact.classList.add('hidden');
+});
+
+contactLi.addEventListener('click', () => {
+  bookList.classList.add('hidden');
+  bookForm.classList.add('hidden');
+  contact.classList.remove('hidden');
+});
