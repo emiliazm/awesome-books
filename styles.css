@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .hidden {
@@ -17,7 +18,7 @@ html {
   width: 50%;
   padding: 0;
 
-  border: 4px solid darkslategray;
+  border: 2px solid darkslategray;
   /* text-decoration: none; */
 }
 
@@ -27,8 +28,8 @@ html {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 8px 5px;
-  
+  padding: 8px;
+  font-weight: bold;
 }
 
 p {
@@ -42,6 +43,30 @@ li:nth-child(odd) { background: lightgray; }
   width: 53px;
   height: 16px;
   border-bottom: darkslategray 2px solid;
-  margin-bottom: 54px;
+  margin-bottom: 14px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: darkslategray 2px solid;
+  font-weight: bold;
+  font-size: 16px;
+  height: 24px;
+}
+
+button {
+  width: fit-content;
+  align-self: flex-end;
+  box-shadow: 2px 2px 2px darkslategray;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
 }
 
