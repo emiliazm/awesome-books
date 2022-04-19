@@ -3,14 +3,18 @@ import UI from "./classes/ui.js";
 
 document.addEventListener('DOMContentLoaded', UI.displayBooks());
 document.querySelector('#addButton').addEventListener('click', (e)=> {
-  const title = document.querySelector('#title').value.trim();
-  const author = document.querySelector('#author').value.trim();
+  const titleElement = document.querySelector('#title');
+  const authorElement = document.querySelector('#author');
+  const title = titleElement.value.trim();
+  const author = authorElement.value.trim();
 
   if (title === '' || author === '') {
     e.preventDefault();
   }else{
     const book = BookCollection.addBook(title, author);
     UI.addBook(book);
+    titleElement.value = '';
+    authorElement.value = '';
   }
 })
 
