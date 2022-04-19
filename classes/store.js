@@ -17,7 +17,7 @@ export default class Store {
   }
 
   static get nextId() {
-    const id = parseInt(localStorage.getItem('bookId') || '0', 10) + 1;
+    const id = parseInt(localStorage.getItem(Store.#idKey) || '0', 10) + 1;
     localStorage.setItem(Store.#idKey, id);
     return id;
   }
