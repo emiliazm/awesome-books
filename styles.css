@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hidden {
@@ -17,9 +17,7 @@ html {
   list-style-type: none;
   width: 50%;
   padding: 0;
-
   border: 2px solid darkslategray;
-  /* text-decoration: none; */
 }
 
 .book {
@@ -69,4 +67,3 @@ button {
 h1 {
   font-size: 1.5em;
 }
-
