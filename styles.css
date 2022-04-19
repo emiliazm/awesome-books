@@ -7,6 +7,50 @@ html {
   display: none;
 }
 
+.sideBorder {
+  border-left: 2px solid darkslategray;
+  border-right: 2px solid darkslategray;
+  padding: 0 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid darkslategray;
+  padding: 5px 10px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  gap: 10px;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -30,12 +74,12 @@ html {
   font-weight: bold;
 }
 
+.book-list li { background: white; }
+.book-list li:nth-child(odd) { background: lightgray; }
+
 p {
   margin: 0;
 }
-
-li { background: white; }
-li:nth-child(odd) { background: lightgray; }
 
 .separator {
   width: 53px;
@@ -64,6 +108,4 @@ button {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 1.5em;
-}
+
